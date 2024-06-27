@@ -38,6 +38,24 @@ In the verbose mode (add `-v` in the argument) will save the original, feature m
 |:-:|:-:|:-:|
 |![](doc/original.jpg) |![](doc/feature.jpg)| ![](doc/reconstructed.jpg)|
 
+# Models
+There are three type of target models: `mbf_large_v1`, `mbf_large_v2` and `mbf_large_v3`.
+- mbf_large is stand for ***Mobile Facenet*** (large version).
+- v1 is the original version of mobile facenet.
+- v2 is DP-preserverd by adding noise in somewhere of the model
+- v3 is DP-preserverd by adding noise in frequenct domain (actually, discrete cosine transform)
+- The protection power is `v1 < v2 < v3`
 
+There is only one attack model which is from [this paper](https://ieeexplore.ieee.org/abstract/document/9897535) called idiap.
+- idiap has specificity
+- This mean an attack model trained on v1 cannot attack the feature produced by v2.
+- Here is a demo of the result
+
+| Target Model | mbf_large_v1 | mbf_large_v2 | mbf_large_v3 |
+| :----------: | :----------: | :----------: | :----------: |
+|Original|![](doc/original.jpg)|![](doc/original.jpg)|![](doc/original.jpg)|
+|Attack by idiap_v1|![](doc/1v1.jpg)|![](doc/2v1.jpg)|![](doc/3v1.jpg)|
+|Attack by idiap_v2|![](doc/1v2.jpg)|![](doc/2v2.jpg)|![](doc/3v2.jpg)|
+|Attack by idiap_v3|![](doc/1v3.jpg)|![](doc/2v3.jpg)|![](doc/3v3.jpg)|
 
  
