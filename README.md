@@ -4,6 +4,9 @@
 - Install the environment: `conda create -n MIA-demo python=3.10.14`
 - Activate the environment: `conda activate MIA-demo`
 - Install the package: `pip install -r requirements.txt`
+- The model can be downloaded by [this link](https://drive.google.com/file/d/1a9QTGb9l8WfNqW0gN4b3pHlLyBIqAnZ1/view?usp=sharing)
+- The demo dataset can be downloaded by [this link](https://drive.google.com/file/d/1V5Axfe41ypb-UYlM4n_xmItTlkyxO0h7/view?usp=sharing)
+
 
 ## Execution
 ### Run on a single image: 
