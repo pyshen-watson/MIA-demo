@@ -1,2 +1,4 @@
 *.pyc
-assets/
+*.jpg
+*.onnx
+*.npy
