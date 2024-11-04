@@ -57,8 +57,8 @@ There is only one attack model which is from [this paper](https://ieeexplore.iee
 | Target Model | mbf_large_v1 | mbf_large_v2 | mbf_large_v3 |
 | :----------: | :----------: | :----------: | :----------: |
 |Original|![](doc/original.jpg)|![](doc/original.jpg)|![](doc/original.jpg)|
-|Attack by idiap_v1|![](doc/1v1.jpg)|![](doc/2v1.jpg)|![](doc/3v1.jpg)|
-|Attack by idiap_v2|![](doc/1v2.jpg)|![](doc/2v2.jpg)|![](doc/3v2.jpg)|
+|Attack by idiap_v1|![](doc/2v2.jpg)|![](doc/2v1.jpg)|![](doc/3v1.jpg)|
+|Attack by idiap_v2|![](doc/1v2.jpg)|![](doc/1v1.jpg)|![](doc/3v2.jpg)|
 |Attack by idiap_v3|![](doc/1v3.jpg)|![](doc/2v3.jpg)|![](doc/3v3.jpg)|
 
  
